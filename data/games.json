@@ -1,0 +1,35 @@
+﻿[
+	{ "date": "2000-08-26", "place": "Ras", "rr": "-86.80", "nb": "33.20", "rj": "57.20", "fh": "-3.60", "comments": "", "9bare": "0.4", "games": "41" },
+	{ "date": "2000-12-15", "place": "Bauer", "rr": "35.20", "nb": "-46.40", "rj": "-22.40", "fh": "33.60", "comments": "(julefrokost)", "9bare": "0.4", "games": "56" },
+	{ "date": "2001-03-26", "place": "Ras+Fil", "rr": "-36.80", "nb": "20.80", "rj": "89.60", "fh": "-73.60", "comments": "RR var på toppen heele aftenen!", "9bare": "0.4", "games": "55" },
+	{ "date": "2001-08-17", "place": "Jooohansen", "rr": "-55.60", "nb": "8", "rj": "71.60", "fh": "-24", "comments": "", "9bare": "0.4", "games": "88" },
+	{ "date": "2002-01-09", "place": "Ras", "rr": "-57", "nb": "27.80", "rj": "18.20", "fh": "11", "comments": "", "9bare": "0.4", "games": "56" },
+	{ "date": "2002-08-17", "place": "Fil", "rr": "-39.20", "nb": "-66.60", "rj": "-5.60", "fh": "111.40", "comments": "", "9bare": "0.4", "games": "41" },
+	{ "date": "2002-12-20", "place": "Ras", "rr": "25.80", "nb": "-145.20", "rj": "-34.40", "fh": "153.80", "comments": "(julefrokost) - Joohansen melder 9 bare og tager gode, med knægt som højeste kort..", "9bare": "0.4", "games": "42" },
+	
+	{ "date": "2003-05-02", "place": "Bauer", "rr": "-47.20", "nb": "-44", "rj": "76", "fh": "15.20", "comments": "Satser doblet!", "9bare": "0.8", "games": "56" },
+	{ "date": "2004-03-05", "place": "Bauer", "rr": "-105.20", "nb": "39.60", "rj": "20.40", "fh": "45.20", "comments": "", "9bare": "0.8", "games": "46" },
+	{ "date": "2004-07-23", "place": "Jooohansen", "rr": "-95.40", "nb": "51.80", "rj": "-178.60", "fh": "222.20", "comments": "", "9bare": "0.8", "games": "76" },
+	{ "date": "2004-11-19", "place": "Fil", "rr": "-54.40", "nb": "53.20", "rj": "70.40", "fh": "-51.20", "comments": "(julefrokost)", "9bare": "0.8", "games": "45" },
+	{ "date": "2005-05-06", "place": "Ras", "rr": "-94.40", "nb": "4.80", "rj": "164.80", "fh": "-75.20", "comments": "", "9bare": "0.8", "games": "52" },
+	{ "date": "2005-12-10", "place": "Fil", "rr": "-52.80", "nb": "24", "rj": "238.40", "fh": "-209.60", "comments": "(julefrokost)", "9bare": "0.8", "games": "56" },
+	
+	{ "date": "2006-05-11", "place": "Jooohansen", "rr": "-72", "nb": "184", "rj": "-334.40", "fh": "222.40", "comments": " (Fensmark) Satser doblet!", "9bare": "1.6", "games": "56" },
+	{ "date": "2006-10-06", "place": "Fil", "rr": "176", "nb": "414", "rj": "-431.20", "fh": "-158.80", "comments": "", "9bare": "1.6", "games": "50" },
+	{ "date": "2007-03-09", "place": "Bauer", "rr": "-44", "nb": "122.40", "rj": "26.40", "fh": "-104.80", "comments": "", "9bare": "1.6", "games": "44" },
+	{ "date": "2007-07-14", "place": "Jooohansen", "rr": "-161.20", "nb": "42.80", "rj": "33.60", "fh": "84.80", "comments": "", "9bare": "1.6", "games": "83" },
+	{ "date": "2007-10-06", "place": "Ras", "rr": "182.40", "nb": "-368", "rj": "361.60", "fh": "-176", "comments": "", "9bare": "1.6", "games": "45" },
+	{ "date": "2008-03-01", "place": "Fil", "rr": "-300.80", "nb": "83.20", "rj": "166.40", "fh": "51.20", "comments": "", "9bare": "1.6", "games": "18" },
+	{ "date": "2008-03-01", "place": "Haslev gym", "rr": "-83.20", "nb": "-32", "rj": "-3.20", "fh": "118.40", "comments": "", "9bare": "1.6", "games": "20" },
+	{ "date": "2008-10-11", "place": "Fil", "rr": "-163.80", "nb": "328.20", "rj": "-140.60", "fh": "-23.80", "comments": "", "9bare": "1.6", "games": "59" },
+	{ "date": "2009-09-19", "place": "Jooohansen", "rr": "122.80", "nb": "-391.60", "rj": "90.80", "fh": "178", "comments": " (Enø)", "9bare": "1.6", "games": "67" },
+	{ "date": "2010-04-24", "place": "Ras", "rr": "-138.60", "nb": "-17", "rj": "294.20", "fh": "-138.60", "comments": "", "9bare": "1.6", "games": "34" },
+	
+	{ "date": "2012-09-08", "place": "Ras", "rr": "-235", "nb": "-404", "rj": "604", "fh": "35", "comments": "Nye satser! 9 bare = 2.50,-", "9bare": "2.5", "games": "48" },
+	{ "date": "2013-09-21", "place": "Ras", "rr": "55", "nb": "-75", "rj": "275", "fh": "-255", "comments": "", "9bare": "2.5", "games": "61" },
+	{ "date": "2014-02-02", "place": "Scandic Hotel", "rr": "11", "nb": "-449", "rj": "209", "fh": "229", "comments": "", "9bare": "2.5", "games": "43" },
+	{ "date": "2014-09-06", "place": "Fil", "rr": "-481", "nb": "-191", "rj": "259", "fh": "413", "comments": "", "9bare": "2.5", "games": "52" },
+	{ "date": "2015-06-26", "place": "Jooohansen", "rr": "95", "nb": "45", "rj": "95", "fh": "-235", "comments": "", "9bare": "2.5", "games": "33" },
+	{ "date": "2017-08-12", "place": "Bauer", "rr": "-295", "nb": "110", "rj": "-305", "fh": "490", "comments": "", "9bare": "2.5", "games": "70" },
+	{ "date": "2018-04-07", "place": "Osloturen", "rr": "-335", "nb": "140", "rj": "-75", "fh": "270", "comments": "", "9bare": "2.5", "games": "54" }
+]

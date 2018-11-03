@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/content/bootstrap.min.css" rel="stylesheet">
+    <link href="/content/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/content/l4e.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Nyheder fra verdens førende kortklub- RSS" href="http://l4e.dk/nyheder.xml" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <style type="text/css">
+        #gamesTable {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+        <div class="container">
+            <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">L4E!</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="nyheder.html">Nyheder</a></li>
+                            <li class="active"><a href="#">Stats</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content
+    ================================================== -->
+
+    <div class="container marketing">
+
+        <div class="container statsMainHeaders">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Absolut</h2>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Indeksbaseret</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="allSumsChart" class="tallStatsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="allSumsIndexChart" class="tallStatsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="totalSumsChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="totalSumsIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="totalBalanceChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="totalBalanceIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="edgeSumsChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="edgeSumsIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <a name="totalWinsAndLosses"></a>
+            <div id="totaltotalWinsAndLossesChart" class="statsChart"></div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="statsMeanChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="statsMeanIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="statsStdDevChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="statsStdDevIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="statsMedianChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="statsMedianIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="statsMedianAbsDevChart" class="statsChart"></div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="statsMedianAbsDevIndexChart" class="statsChart"></div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="container">
+            <a name="GamesTable"></a>
+            <table id="gamesTable" class="table table-striped table-bordered table-condensed">
+                <thead>
+                    <th>Dato</th>
+                    <th>RR</th>
+                    <th>NB</th>
+                    <th>RJ</th>
+                    <th>FH</th>
+                    <th>Hos</th>
+                    <th>Spil</th>
+                    <th>Sidenote</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+        </footer>
+
+        <div class="container text-center">
+            <img src="images/legs.png" alt="legs" />
+        </div>
+
+    </div>
+
+    <!-- Le javascript
+      ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/scripts/jquery-2.0.3.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/highcharts.js"></script>
+    <script src="/scripts/simple_statistics.js"></script>
+    <script src="/scripts/l4e.js"></script>
+    <script src="/scripts/stats.js"></script>
+    <script>
+
+        /* load games*/
+        $.getJSON('/data/games.json', function (games) {
+
+            $('#allSumsChart').highcharts(getAllSumsJSON(games, SeriesTypeEnum.Absolute));
+            $('#allSumsIndexChart').highcharts(getAllSumsJSON(games, SeriesTypeEnum.Index));
+
+            $('#totalSumsChart').highcharts(getTotalSumsJSON(games, SeriesTypeEnum.Absolute));
+            $('#totalSumsIndexChart').highcharts(getTotalSumsJSON(games, SeriesTypeEnum.Index));
+
+            $('#totalBalanceChart').highcharts(getTotalBalanceJSON(games, SeriesTypeEnum.Absolute));
+            $('#totalBalanceIndexChart').highcharts(getTotalBalanceJSON(games, SeriesTypeEnum.Index));
+
+            $('#totaltotalWinsAndLossesChart').highcharts(getTotalPlusAndMinusGamesCountJSON(games));
+
+            $('#statsMeanChart').highcharts(statsMeanJSON(games, SeriesTypeEnum.Absolute));
+            $('#statsMeanIndexChart').highcharts(statsMeanJSON(games, SeriesTypeEnum.Index));
+
+            $('#statsStdDevChart').highcharts(statsStdDevJSON(games, SeriesTypeEnum.Absolute));
+            $('#statsStdDevIndexChart').highcharts(statsStdDevJSON(games, SeriesTypeEnum.Index));
+
+            $('#statsMedianChart').highcharts(statsMedianJSON(games, SeriesTypeEnum.Absolute));
+            $('#statsMedianIndexChart').highcharts(statsMedianJSON(games, SeriesTypeEnum.Index));
+
+            $('#statsMedianAbsDevChart').highcharts(statsMedianAbsDevJSON(games, SeriesTypeEnum.Absolute));
+            $('#statsMedianAbsDevIndexChart').highcharts(statsMedianAbsDevJSON(games, SeriesTypeEnum.Index));
+
+            $('#edgeSumsChart').highcharts(getEdgeScoresJSON(games, SeriesTypeEnum.Absolute));
+            $('#edgeSumsIndexChart').highcharts(getEdgeScoresJSON(games, SeriesTypeEnum.Index));
+
+            $.each(games, function (i, game) {
+                $('#gamesTable tbody').append(toTableString(game));
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nyheder fra Verdens førende kortklub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/content/bootstrap.min.css" rel="stylesheet">
+    <link href="/content/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/content/l4e.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Nyheder fra verdens førende kortklub- RSS" href="http://l4e.dk/nyheder.xml" />
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+        <div class="container">
+            <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">L4E!</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="#">Nyheder</a></li>
+                            <li><a href="stats.html">Stats</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Content
+    ================================================== -->
+    <div class="container marketing">
+
+        <div id="news"></div>
+
+        <hr class="featurette-divider">
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+        </footer>
+
+        <div class="container text-center">
+            <img src="images/legs.png" alt="legs" />
+        </div>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/scripts/jquery-2.0.3.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/jquery.zrssfeed.js"></script>
+    <script type="text/javascript">
+        $('#news').rssfeed('http://l4e.dk/nyheder.xml', {
+            limit: 500,
+            header: false,
+            media: false,
+            snippet: false,
+            dateformat: 'dd-MMMM-yyyy'
+        });
+    </script>
+</body>
+</html>
