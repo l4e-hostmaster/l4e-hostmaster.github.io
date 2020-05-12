@@ -33,5 +33,6 @@
 	{ "date": "2017-08-12", "place": "Bauer", "rr": "-295", "nb": "110", "rj": "-305", "fh": "490", "comments": "", "9bare": "2.5", "games": "70" },
 	{ "date": "2018-04-07", "place": "Oslobåden (Fil)", "rr": "-335", "nb": "140", "rj": "-75", "fh": "270", "comments": "", "9bare": "2.5", "games": "54" },
 	{ "date": "2018-11-03", "place": "Bauer", "rr": "80", "nb": "-600", "rj": "400", "fh": "120", "comments": "", "9bare": "2.5", "games": "47" },
-	{ "date": "2019-09-14", "place": "Enø (Jooohansen)", "rr": "195", "nb": "-40", "rj": "185", "fh": "-340", "comments": "", "9bare": "2.5", "games": "61" }
+	{ "date": "2019-09-14", "place": "Enø (Jooohansen)", "rr": "195", "nb": "-40", "rj": "185", "fh": "-340", "comments": "", "9bare": "2.5", "games": "61" },
+	{ "date": "2020-05-07", "place": "Bauer", "rr": "-180", "nb": "25", "rj": "145", "fh": "10", "comments": "", "9bare": "2.5", "games": "44" }
 ]
